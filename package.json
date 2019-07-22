@@ -1,0 +1,33 @@
+{
+  "name": "endpoint-testing-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zellwk/endpoint-testing-example.git"
+  },
+  "author": "Zell Liew <zellwk@gmail.com> (https://zellwk.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zellwk/endpoint-testing-example/issues"
+  },
+  "homepage": "https://github.com/zellwk/endpoint-testing-example#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.5.11"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "supertest": "^4.0.2"
+  }
+}
