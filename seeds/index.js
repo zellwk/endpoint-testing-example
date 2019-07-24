@@ -1,6 +1,6 @@
 const fs = require('fs')
 const util = require('util')
-const readDir = util.promisify(fs.readdir).bind(fs)
+const readDir = util.promisify(fs.readdir)
 const path = require('path')
 const mongoose = require('mongoose')
 
